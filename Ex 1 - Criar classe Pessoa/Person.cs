@@ -1,14 +1,14 @@
-﻿namespace Ex1.Class1
+﻿namespace Ex1.Class
 {
     public class Person
     {
 		private string _name;
 		private DateTime _birthDate;
-		private int _height;
+		private double _height;
 
 		public string Name { get => _name; set => _name = value; }
 		public DateTime BirthDate { get => _birthDate; set => _birthDate = value; }
-		public int Height { get => _height; set => _height = value; }
+		public double Height { get => _height; set => _height = value; }
 		
 		public string RetornarDados()
 		{
